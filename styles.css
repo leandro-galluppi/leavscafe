@@ -59,7 +59,7 @@ a, a:hover {
 .link-item {
     overflow: hidden;
     margin-top: 15px;
-    height: 70px;    
+	text-align: center;
 }
 
 .link-item a {
@@ -68,22 +68,12 @@ a, a:hover {
 }
 
 .link-item img {
-    max-width: 70px;
+    max-width: 100%;
 }
 
 .link-item a:active {
     background-color: #e3c6a6;
 	color: inherit;
-}
-
-.link-text, .arrow {
-    display: table;
-    height: 100%;
-}
-
-.link-text span, .arrow span {
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .footer {
